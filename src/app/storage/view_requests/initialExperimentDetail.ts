@@ -1,0 +1,31 @@
+import { ExperimentDetails, ExperimentDetailsWithLab } from "src/types";
+
+export const initialExperimentDetails: ExperimentDetailsWithLab = {
+  experimentDetails: {
+    experimentId: 0,
+    experimentDetails: "",
+    isRiskAssessmentDone: false,
+    highestRiskLevel: 0,
+    status: undefined,
+    lastSavedDate: new Date(),
+    submissionDate: null,
+    submittedUserId: 0,
+    placeTagId: 0,
+    experimentEndDate: null,
+    firstApproverId: null,
+    firstApprovalTime: null,
+    firstApproverComments: null,
+    secondApproverId: null,
+    secondApprovalTime: null,
+    secondApproverComments: null,
+    stockControlId: null,
+    stockControlCheckedTime: null,
+    stockControlComments: null,
+    submittedUserName: "",
+    firstApproverName: "",
+    secondApproverName: "",
+    stockControlName: "",
+  },
+  chemicalList: [],
+  lab: null,
+};
